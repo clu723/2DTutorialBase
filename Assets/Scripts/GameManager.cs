@@ -44,5 +44,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void Level2()
+    {
+        SceneManager.LoadScene("Level2");
+    }
+
     #endregion
 }
